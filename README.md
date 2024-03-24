@@ -28,7 +28,7 @@ python3 -u main.py \
     --dataset=cc3m \
     --val-dataset=cc3m \
     --opt-version='facebook/opt-125m' \
-    --visual-model='openai/clip-vit-base-patch16' \
+    --visual-model='openai/clip-vit-large-patch14' \
     --exp-name='gill_exp' \
     --log-base-dir='runs/' \
     --batch-size=2  \
