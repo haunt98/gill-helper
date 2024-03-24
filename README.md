@@ -25,7 +25,8 @@ python3 scripts/preprocess_sd_embeddings_local.py datasets/cc3m_val.tsv data/cc3
 
 ```sh
 python3 -u main.py \
-    --dataset=cc3m  --val-dataset=cc3m \
+    --dataset=cc3m \
+    --val-dataset=cc3m \
     --opt-version='facebook/opt-125m' \
     --visual-model='openai/clip-vit-base-patch16' \
     --exp-name='gill_exp' \
